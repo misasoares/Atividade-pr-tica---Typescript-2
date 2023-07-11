@@ -5,7 +5,6 @@ class BombaCombustivel {
     quantidadeCombustivel:number
 
     constructor(){
-        
         this.aditivada = 5.63
         this.comum = 5.21
         this.quantidadeCombustivel = 100
