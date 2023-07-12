@@ -1,9 +1,16 @@
 {
   "description": "",
   "dependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "dev": "npx tsc && node ./dist"
+    "dev": "npx tsc && node ./dist",
+    "ex1": "ts-node-dev --respawn --transpile-only --cls ./src/1.ts",
+    "ex2": "ts-node-dev --respawn --transpile-only --cls ./src/2.ts",
+    "ex3": "ts-node-dev --respawn --transpile-only --cls ./src/3.ts",
+    "ex4": "ts-node-dev --respawn --transpile-only --cls ./src/4.ts",
+    "ex5": "ts-node-dev --respawn --transpile-only --cls ./src/5.ts",
+    "ex6": "ts-node-dev --respawn --transpile-only --cls ./src/6.ts"
   }
 }

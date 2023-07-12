@@ -1,5 +1,5 @@
 class Contador {
-    public valor: number
+    private valor: number
 
     constructor(){
         this.valor = 0
