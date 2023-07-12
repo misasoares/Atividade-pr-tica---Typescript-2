@@ -1,3 +1,11 @@
+// 4. Crie uma classe para representar uma Calculadora. Esta classe
+// deve conter um atributo que servirá para armazenar o histórico das
+// operações e seus respectivos resultados.
+// a. Esta classe deve conter as operações de somar, multiplicar,
+// dividir e diminuir.
+// b. Esta classe deve iniciar com o histórico vazio
+// c. Esta classe deve conter uma ação para visualizar o histórico.
+
 class Calculadora {
 
     public historico: {operacao:string, resultado:number}[]
@@ -40,4 +48,20 @@ class Calculadora {
 }
 }
 
-export default Calculadora
+console.log("ATIVIDADE 4")
+console.log("----------------------")
+
+const calculadora = new Calculadora()
+
+
+calculadora.visualizarHistorico()
+
+calculadora.somar(5, 5)
+calculadora.dividir(5, 1)
+calculadora.diminuir(5, 1)
+calculadora.multiplicar(5234, 13453245)
+
+console.log("As transações ja feitas foram:")
+calculadora.visualizarHistorico()
+
+console.log("----------------------")
